@@ -22,6 +22,8 @@ set expandtab
 set autoindent
 set autoread
 set mouse=r #mouse copy and paste
+"防止 tab 制表符
+autocmd FileType c,cpp set shiftwidth=2 | set expandtab
 
 "防止linux终端下无法拷贝
 #set mouse=nicr
